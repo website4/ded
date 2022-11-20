@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 require('dotenv').config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf(`5894677459:AAFiQTNDitVhKr5sFad3J3BWHc78iGcVW5Q`);
 bot.start((ctx) => ctx.reply('Приветушки дедушки',      
     Markup.keyboard([
         ['Поздравления', 'Что желает тебе Вован'],
